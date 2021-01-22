@@ -1,23 +1,29 @@
+:root {
+	--primary-color: #008acc;
+	--light-primary-color: #00a2ed;
+	--dark-primary-color: #21556e;
+}
 *{
 	background-color: rgba(0,0,0,0);
 	border:none;
 	-webkit-box-sizing:border-box;
 		box-sizing:border-box;
 	color:#0f0f0f;
-	font:normal normal 400 1em/1.1 'Arial';
+	font:normal normal 400 1em/1.1 'Lato';
 	margin:0;
 	outline:none;
 	padding:0;
 	text-decoration:none;
 	vertical-align:top;
 	z-index:0;
+	overflow-x: hidden;
 }
 table{
 	border-collapse:collapse;
 }
 body{
-	min-height: 270vh;
-	width: 100%;
+	min-height: 100vh;
+	width: 100vw;
 }
 ul{
 	list-style: none;
