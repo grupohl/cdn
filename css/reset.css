@@ -2,7 +2,6 @@
 	--primary-color: #008acc;
 	--light-primary-color: #00a2ed;
 	--dark-primary-color: #21556e;
-	--red: red;
 }
 *{
 	background-color: rgba(0,0,0,0);
@@ -25,7 +24,6 @@ table{
 body{
 	min-height: 100vh;
 	width: 100vw;
-	background-color: var(--red);
 }
 ul{
 	list-style: none;
